@@ -22,12 +22,21 @@
   right: 50px;
 }
 
+a{
+  color: black;
+}
+
 .profile-pix{
   margin-block: 1rem;
 }
 
+.mobile{
+  display: none;
+}
+
 .links p{
-  background-color: aliceblue;
+  background-color: rgba(16, 24, 40, 0.05);
+  ;
   padding-block: 1rem;
   margin-block: 1rem;
 }
@@ -65,5 +74,11 @@
 
   .nav img{
     right: 0;
+  }
+  .mobile{
+    display: block;
+  }
+  .desktop{
+    display: none;
   }
 }

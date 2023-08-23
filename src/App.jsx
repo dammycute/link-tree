@@ -5,6 +5,7 @@ import slack from './assets/slack.png'
 import github from './assets/github.png'
 import kodecamp from './assets/kodecamp.png'
 import kodeHauz from './assets/kodeHauz.png'
+import mobile from './assets/mobileShare.png'
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
     <>
       <div className="container">
         <div className="nav">
-          <img src={share} alt="share" />
+          <img src={share} alt="share"  className='desktop'/>
+          <img src={mobile} alt=""  className='mobile'/>
         </div>
 
         <div className="profile-pix">
